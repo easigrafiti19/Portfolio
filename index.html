@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b4ae5079fe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()></i>
+        </nav>
+        <div class="header-text">
+            <p>Front End Developer </p>
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </div>
+</div>
+<!-------------------about----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Issa Ayeni, a passionate and dedicated junior frontend developer with a strong enthusiasm for crafting exceptional web experiences. I believe that the web is a canvas where creativity and technology converge to bring ideas to life.
+
+                    With a solid foundation in HTML, CSS, Six years of dedicated experience in WordPress design and JavaScript, I'm eager to contribute my skills to build user-friendly and visually captivating websites. My journey into web development has been driven by a curiosity to learn and a commitment to staying current with the latest industry trends and best practices.
+                    
+                    I enjoy the process of transforming designs into interactive, responsive, and accessible web applications. Whether it's mastering a new framework, optimizing web performance, or diving into the intricacies of web accessibility, I'm always up for a challenge and thrive on continuous improvement.
+                    
+                    As a collaborative team player, I value open communication and believe that the best solutions emerge when diverse perspectives come together. I'm excited to learn from experienced developers, share my own insights, and work collectively to deliver outstanding digital solutions.
+                    
+                    In my free time, you'll often find me experimenting with code, exploring emerging web technologies, and seeking inspiration from the ever-evolving world of frontend development. I look forward to contributing my creativity and technical skills to projects that make a positive impact on the web.
+                    
+                    Let's connect and embark on this exciting journey together!
+                    
+                    Feel free to personalize and expand upon this introduction to showcase your unique experiences, interests, and aspirations as a junior frontend developer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br> HTML, CSS, JavaScript </li>
+                            <li><span>Frontend Frameworks</span><br> React, Angular (Basic)</li>
+                            <li><span>Web Development Tools</span><br>Chrome DevTools Basic Knowledge of: RESTful APIs, AJAX</li>
+                            <li><span>Responsive Design</span><br>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span>January 2023 - June 2023</span><br> schoolable</li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            
+                            <li><span>2019</span><br>Code Lagos</li>
+                            <li><span>2021</span><br>Codeacademy</li>
+                            <li><span>2021</span><br>Solo Learn / Udemy</li>
+
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------Services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i> 
+            <h2>Web Performance Optimization</h2>
+            <p>Ability to optimize web pages for speed and performance, including lazy loading, code splitting, and minification.
+                Knowledge of browser developer tools for performance profiling</p>
+                <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-brands fa-js"></i>
+        <h2>Web APIs</h2>
+        <p>Familiarity with various web APIs, including the Document Object Model (DOM), Fetch API, and Geolocation API.
+            Experience with third-party APIs (e.g., RESTful, GraphQL).</p>
+            <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-brands fa-github"></i>
+    <h2>Version Control/Git</h2>
+    <p>Proficiency with version control systems, particularly Git, for
+         collaborative development.</p>
+        <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-brands fa-github"></i>
+    <h2>WordPress Designer</h2>
+    <p>Six years of dedicated experience in WordPress design and WordPress manipulation </p>
+        <a href="#">Learn more</a>
+</div>
+</div>
+<!----------------------------portfolio-------------------------->
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Robofriends App</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from the app store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">  
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Resturant Locator</h3>
+                    <p>The app connects you to your favourite Resturant in the Lagos Nigeria Area.
+                        Download it from the app store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app provides a seamless online shopping experience.
+                        Download it from the app store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact--------------------->
+<div id="contact">
+    <div id="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>easigrafiti@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>08183027548 / 09060827806</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Easigrafiti<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-Link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz3lA-gW4g-2fzRMO7WTEsObr16jg_kzq11DEhW5tyrHaBBa-TLOvbAcRL2mqEkmEgh/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+    </html>
